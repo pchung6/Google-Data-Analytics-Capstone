@@ -1,0 +1,10 @@
+Microsoft Excel was ued to open and clean the data.
+In both the 2019 Q1 and 2020 Q1 dataset, the CSV files were opened in Excel and saved as an Excel Workbook file.
+
+Data cleaning steps:
+- "ride_length" column was created
+	- contents = "started_at" column - "ended_at" column
+	- format as HH:MM:SS using format>cells>time>37:30:55
+
+- "day_of_week" column was created
+	- contents = "WEEKDAY" command (=WEEKDAY (C2,1))
